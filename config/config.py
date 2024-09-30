@@ -8,15 +8,14 @@ load_dotenv()
 
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = 27486096
+API_HASH = "66c674a271cea3b34af8ebde912dfe6a"
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = "7786538204:AAHLnnkUz5EnZuqoiuDUZv-pJ1ArmGCzIo8"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-
+MONGO_DB_URI = "mongodb+srv://arshuuu76:arshuuu76@arshu76.wthro.mongodb.net/"
 CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", 5)
 )  # Remember to give value in Seconds
