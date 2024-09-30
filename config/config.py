@@ -48,12 +48,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = -1002235542660
 
 # Your User ID.
-OWNER_ID = list(
-    map(int, getenv("OWNER_ID", 6399386263).split())
-)  # Input type must be interger
+OWNER_ID = 7536754213  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -131,7 +129,8 @@ SET_CMDS = getenv("SET_CMDS", False)
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @ChampuStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = "BQGjZ5AAjfIK5dhfDq7f7seQ6cRROPfa_ExZ0A6coG6MdJ8o2T-OFLfzINof7AV9ZHoEUQaEtRnc3fke-NcA70LXc4y3oDjUovurJUXeqWGJG0D02MvY3P9aE79jm2Lb8ErgWKVZXjGV-i-wSy8dhLHY6kDefP_-aQczwuy4Im4cgAiHFYuWOnYTzU4r6hCW_DCej5e903jYQliwpD6VvnvKzYOUuYVu8xwYWfglYOk_Qi2NDYMDK5Tjve-G9F6w5k9z7f6C_4TDpWwkXldle40VynQ7o25jWZaVtzPg4m2FV6mF4ZLHd596LwK8ahjybQyxtZILq05m6kt9pm-b0_sus0TSRgAAAAHaaRBZAA"
+
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
